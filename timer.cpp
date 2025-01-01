@@ -42,7 +42,7 @@ int main(int argv, char** args) {
       timeTicks -= 60*2;
 
     if(mouseCenter)
-      timeTicks = 60*60*30;
+      timeTicks = 60*60*30+1*60;
 
     if(otherTick % 60 == 0) {
 
